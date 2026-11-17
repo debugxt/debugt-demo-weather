@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "name": "debugt-demo-weather",
+  "services": {
+    "planner": {
+      "kind": "api",
+      "baseUrl": "http://localhost:7070",
+      "ready": "listening on"
+    },
+    "geo": {
+      "kind": "api",
+      "baseUrl": "http://localhost:7071",
+      "ready": "listening on"
+    },
+    "forecast": {
+      "kind": "api",
+      "baseUrl": "http://localhost:7072",
+      "ready": "listening on"
+    }
+  }
+}

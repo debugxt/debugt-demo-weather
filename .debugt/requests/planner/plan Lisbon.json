@@ -1,0 +1,12 @@
+{
+  "v": 1,
+  "kind": "http",
+  "name": "plan Lisbon",
+  "method": "GET",
+  "path": "/plan?city=Lisbon&days=3",
+  "headers": [],
+  "body": {
+    "mode": "none",
+    "text": ""
+  }
+}

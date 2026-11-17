@@ -1,0 +1,12 @@
+{
+  "v": 1,
+  "kind": "http",
+  "name": "plan nowhere",
+  "method": "GET",
+  "path": "/plan?city=Nowhereville",
+  "headers": [],
+  "body": {
+    "mode": "none",
+    "text": ""
+  }
+}

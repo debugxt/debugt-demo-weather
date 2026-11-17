@@ -1,0 +1,12 @@
+{
+  "v": 1,
+  "kind": "http",
+  "name": "plan Tokyo",
+  "method": "GET",
+  "path": "/plan?city=Tokyo&days=5",
+  "headers": [],
+  "body": {
+    "mode": "none",
+    "text": ""
+  }
+}

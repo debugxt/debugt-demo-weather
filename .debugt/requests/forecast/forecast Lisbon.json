@@ -1,0 +1,12 @@
+{
+  "v": 1,
+  "kind": "http",
+  "name": "forecast Lisbon",
+  "method": "GET",
+  "path": "/forecast?lat=38.72&lon=-9.13&days=3",
+  "headers": [],
+  "body": {
+    "mode": "none",
+    "text": ""
+  }
+}

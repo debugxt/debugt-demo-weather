@@ -1,0 +1,12 @@
+{
+  "v": 1,
+  "kind": "http",
+  "name": "find a city",
+  "method": "GET",
+  "path": "/city?name=Reykjavik",
+  "headers": [],
+  "body": {
+    "mode": "none",
+    "text": ""
+  }
+}
