@@ -1,0 +1,45 @@
+{
+  // Trip Weather's three services. Debugt lists them under Services and runs them from its canvas;
+  // they also run as they are, from VS Code's Run and Debug view.
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "planner",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/planner/server.js",
+      "console": "internalConsole",
+      "env": {
+        "PORT": "7070",
+        "GEO_URL": "http://localhost:7071",
+        "FORECAST_URL": "http://localhost:7072"
+      }
+    },
+    {
+      "name": "geo",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/geo/server.js",
+      "console": "internalConsole",
+      "env": {
+        "PORT": "7071"
+      }
+    },
+    {
+      "name": "forecast",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/forecast/server.js",
+      "console": "internalConsole",
+      "env": {
+        "PORT": "7072"
+      }
+    }
+  ],
+  "compounds": [
+    {
+      "name": "Trip Weather",
+      "configurations": ["planner", "geo", "forecast"]
+    }
+  ]
+}
