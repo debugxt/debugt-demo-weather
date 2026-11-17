@@ -16,7 +16,8 @@ Open-Meteo needs no key.
 ## Try it
 
 You need VS Code, Node 18 or later, and the
-[Debugt extension](https://marketplace.visualstudio.com/items?itemName=debugt-labs.debugt-extension).
+[Debugt extension](https://marketplace.visualstudio.com/items?itemName=debugt-labs.debugt-extension),
+on macOS, Linux or Windows.
 
 ```bash
 git clone https://github.com/debugxt/debugt-demo-weather.git
