@@ -24,7 +24,8 @@ git clone https://github.com/debugxt/debugt-demo-weather.git
 code debugt-demo-weather
 ```
 
-Then, in Debugt:
+If VS Code asks whether you trust the authors of the files in this folder, choose **Yes, I trust
+the authors**: Debugt does not run in Restricted Mode. Then, in Debugt:
 
 1. It asks whether to use the setup this repo ships — choose **Use it**. The **Trip Weather**
    canvas appears, with the three services on it.
@@ -50,6 +51,7 @@ an umbrella and sunscreen, with the numbers it decided on.
 
 | What you see | Why |
 |---|---|
+| The project is not in Debugt | VS Code opened the folder in Restricted Mode, where Debugt does not run. Trust it: **Manage** (the gear) → **Trust**, or click **Restricted Mode** in the status bar. |
 | `fetch failed`, or the forecast service answering 502 | Open-Meteo could not be reached from your network. Switch on **Storm everywhere** (above) and Debugt answers in its place. |
 | **Run all** is greyed out | Another canvas has services running: stop them, or pick that canvas again. |
 | A port is in use | Something else listens on 7070, 7071 or 7072: change `PORT` in `.vscode/launch.json`, and the service's host in Debugt. |
